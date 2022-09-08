@@ -42,23 +42,28 @@ img {
 
 .header {
   grid-area: header;
-  background-color: aqua;
-  background-image: url(./img/banner-header_doram.jpg);
+  /* background-color: aqua; */
   position: relative;
 }
+.container-itens {
+  background-image: url(./img/banner-header_doram.jpg);
+}
+
 .logo img {
+  /* display: flex; */
   width: auto;
   height: 160px;
-  /* background-color: black; */
+  background-color: black;
 }
 .img-header {
-  /* background-color: blue; */
+  background-color: blue;
   position: absolute;
   width: auto;
-  height: -20%;
+  height: -120%;
   bottom: -20%;
   left: 50%;
   transform: translateX(-50%);
+  /* max-width: 50%; */
 }
 .header li a {
   font-size: 1.6rem;
@@ -68,12 +73,15 @@ img {
   color: white;
   padding: 6px;
   background: #00ed00;
+  /* margin-top: 10%; */
 }
 .nav-header {
+  margin-top: 5%;
   /* display: grid; */
-  background-color: bisque;
+  /* background-color: bisque; */
   /* align-self: end; */
 }
+/*fala com cada item de li*/
 .nav-header li {
   display: flex;
   padding: 10px;
