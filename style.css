@@ -140,6 +140,27 @@ img {
   display: flex;
   justify-content: space-between;
 }
+.lista1 li:first-child {
+  color: white;
+}
+.lista2 li:first-child {
+  color: white;
+}
+.lista3 li:first-child {
+  color: white;
+}
+.lista4 li:first-child {
+  color: white;
+}
+.lista5 li:first-child {
+  color: white;
+}
+.lista6 li:first-child {
+  color: white;
+}
+.lista7 li:first-child {
+  color: white;
+}
 
 .lista1 li {
   outline: solid 1px red;
