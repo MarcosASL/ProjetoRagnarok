@@ -95,7 +95,7 @@ img {
 
 .footer {
   grid-area: footer;
-  outline: 1px solid red;
+  background-color: #5e5d5d;
 }
 
 .main {
