@@ -144,6 +144,7 @@ img {
 .container-footer {
   display: flex;
   justify-content: space-between;
+  padding-left: 40px;
 }
 .lista1 li:first-child {
   color: white;
