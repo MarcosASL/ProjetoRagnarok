@@ -207,6 +207,11 @@ img {
   padding-bottom: 20px;
 }
 
+/*distanciamente dos elementos da lista do footer*/
+.nav {
+  margin: 10px;
+}
+
 .main {
   grid-area: main;
 }
