@@ -44,6 +44,7 @@ img {
   grid-area: header;
   /* background-color: aqua; */
   /* position: relative; */
+  outline: 10px solid yellow;
 }
 .container-itens {
   background-image: url(./img/banner-header_doram.jpg);
