@@ -59,9 +59,16 @@ img {
   outline: 10px solid yellow;
 }
 .container-itens {
-  background-image: url(./img/banner-header_doram.jpg);
+  /* background-image: url(./img/banner-header_doram.jpg); */
   position: relative;
   outline: 1px solid red;
+}
+
+.banner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .logo img {
@@ -72,8 +79,8 @@ img {
 }
 .img-header {
   /* background-color: blue; */
-  outline: 1px solid red;
   position: absolute;
+  outline: 1px solid red;
   width: auto;
   height: -120%;
   bottom: -20%;
@@ -81,6 +88,7 @@ img {
   transform: translateX(-50%);
   /* max-width: 50%; */
 }
+
 .header li a {
   font-size: 1.6rem;
   font-weight: 800;
