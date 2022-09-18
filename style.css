@@ -1,12 +1,24 @@
 /* resets---------------------------------------------------- */
+
+html,
 body {
+  height: 100%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+/* body {
+  height: 100%;
+  padding: 0px;
   margin: 0px;
   font-family: Arial, Helvetica, sans-serif;
   color: #111111;
-  padding-bottom: 600px; /*TIRAR DAQUI DEPOIS, É APENAS PROVISORIO*/
+  padding-bottom: 600px; /*TIRAR DAQUI DEPOIS, É APENAS PROVISORIO
   font-size: 64px;
   justify-items: center;
-}
+} */
 p,
 h1,
 ul,
@@ -104,6 +116,7 @@ img {
   background-color: #181818;
   outline: 1px solid red;
 }
+
 .footer p {
   outline: 1px solid red;
   font-size: 49%;
