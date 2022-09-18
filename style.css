@@ -70,12 +70,13 @@ img {
   position: absolute;
   outline: 1px solid red;
   width: auto;
-  height: 120%;
+  height: -120%;
   bottom: -20%;
   left: 50%;
   transform: translateX(-50%);
   /* max-width: 50%; */
 }
+
 .header li a {
   font-size: 1.6rem;
   font-weight: 800;
