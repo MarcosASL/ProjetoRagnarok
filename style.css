@@ -12,6 +12,7 @@ body {
 p,
 h1,
 ul,
+ol,
 li,
 a,
 h2,
@@ -20,6 +21,10 @@ h3 {
   padding: 0px;
   list-style: none;
   text-decoration: none;
+}
+
+a {
+  color: white;
 }
 
 img {
@@ -161,6 +166,9 @@ img {
 .lista7 li:first-child {
   color: white;
 }
+/* .lista7 li a {
+  box-shadow: none;
+} */
 
 .lista1 li {
   outline: solid 1px red;
