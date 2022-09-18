@@ -43,10 +43,12 @@ img {
 .header {
   grid-area: header;
   /* background-color: aqua; */
-  position: relative;
+  /* position: relative; */
 }
 .container-itens {
   background-image: url(./img/banner-header_doram.jpg);
+  position: relative;
+  outline: 1px solid red;
 }
 
 .logo img {
