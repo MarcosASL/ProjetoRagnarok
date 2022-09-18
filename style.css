@@ -56,7 +56,8 @@ img {
   background-color: black;
 }
 .img-header {
-  background-color: blue;
+  /* background-color: blue; */
+  outline: 1px solid red;
   position: absolute;
   width: auto;
   height: -120%;
