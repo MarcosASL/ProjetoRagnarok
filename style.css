@@ -105,9 +105,25 @@ img {
 
 .footer {
   grid-area: footer;
-  display: flex;
-  background-color: #5e5d5d;
+  display: block;
+  justify-content: left;
+  padding: 40px;
+  background-color: #181818;
   outline: 1px solid red;
+}
+.footer p {
+  outline: 1px solid red;
+  font-size: 49%;
+  padding: 1%;
+  color: white;
+}
+/* .container-footer {
+  outline: 1px solid rgb(57, 18, 197);
+  display: flex;
+  justify-content: space-between;
+} */
+.item {
+  outline: solid 1px red;
 }
 
 .main {
