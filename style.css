@@ -102,6 +102,9 @@ img {
   background-color: #5e5d5d;
   outline: 1px solid red;
 }
+.container-footer {
+  outline: 1px solid red;
+}
 
 .main {
   grid-area: main;
