@@ -137,14 +137,14 @@ img {
   justify-content: space-between;
 } */
 .img {
-  outline: solid 1px red;
-  margin-left: 40px;
-  margin-bottom: 45px;
+  /* outline: solid 1px red; */
+  width: 70px;
+  height: 59px;
 }
 .container-footer {
   display: flex;
   justify-content: space-between;
-  padding-left: 40px;
+  padding-left: 30px;
 }
 .lista1 li:first-child {
   color: white;
@@ -205,6 +205,12 @@ img {
   outline: solid 1px red;
   color: rgb(160, 158, 158);
   padding-bottom: 20px;
+}
+.container-img {
+  display: flex;
+  padding-top: 8px;
+  padding-left: 40px;
+  padding-bottom: 40px;
 }
 
 /*distanciamente dos elementos da lista do footer*/
