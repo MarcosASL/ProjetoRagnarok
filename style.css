@@ -122,14 +122,59 @@ img {
 .footer p {
   outline: 1px solid red;
   color: white;
+  margin-bottom: 13px;
+  margin-left: 40px;
+  font-size: 30px;
 }
 /* .container-footer {
   outline: 1px solid rgb(57, 18, 197);
   display: flex;
   justify-content: space-between;
 } */
-.item {
+.img {
   outline: solid 1px red;
+  margin-left: 40px;
+  margin-bottom: 45px;
+}
+.container-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.lista1 li {
+  outline: solid 1px red;
+  color: rgb(160, 158, 158);
+  padding-bottom: 20px;
+}
+.lista2 li {
+  outline: solid 1px red;
+  color: rgb(160, 158, 158);
+  padding-bottom: 20px;
+}
+.lista3 li {
+  outline: solid 1px red;
+  color: rgb(160, 158, 158);
+  padding-bottom: 20px;
+}
+.lista4 li {
+  outline: solid 1px red;
+  color: rgb(160, 158, 158);
+  padding-bottom: 20px;
+}
+.lista5 li {
+  outline: solid 1px red;
+  color: rgb(160, 158, 158);
+  padding-bottom: 20px;
+}
+.lista6 li {
+  outline: solid 1px red;
+  color: rgb(160, 158, 158);
+  padding-bottom: 20px;
+}
+.lista7 li {
+  outline: solid 1px red;
+  color: rgb(160, 158, 158);
+  padding-bottom: 20px;
 }
 
 .main {
