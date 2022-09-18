@@ -94,6 +94,7 @@ img {
 
 .footer {
   grid-area: footer;
+  background-color: blue;
 }
 
 .main {
