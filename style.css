@@ -120,7 +120,7 @@ img {
   outline: 20px solid pink;
   /* padding: 500px 0px 500px 0px; */
   /*top/right/bottom/left*/
-  height: 1000px;
+  height: 1200px; /*deixar como 1000 depois*/
   margin-bottom: -700px;
 }
 
@@ -240,3 +240,68 @@ img {
 .main {
   grid-area: main;
 }
+
+/*BOX DA FAIXA-ETÁRIA   INICIO--------------------------------------------*/
+.classificacao-etaria {
+  background-color: #000;
+  border-radius: 5px;
+  width: 310px;
+}
+.classificacao-etaria span {
+  color: #fff;
+  font-size: 0.7rem;
+  display: flex;
+  justify-content: center;
+  font-family: "Arial Narrow OS";
+  padding: 3px;
+}
+.classificacao {
+  width: 300px;
+  height: 60px;
+  display: flex;
+  background-color: #fff;
+  font-family: "Arial Narrow OS";
+  border-radius: 5px;
+  margin: 0 5px;
+}
+.age-green {
+  background-color: #00a44f;
+  font-weight: bold;
+  font-size: 2rem;
+  text-align: center;
+  color: #fff;
+  vertical-align: middle;
+  height: 100%;
+  width: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  font-family: "Arial Narrow OS";
+}
+
+.text {
+  color: #8f8f8f;
+  padding: 5px;
+  width: 80%;
+}
+.text p {
+  font-size: 0.7rem;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  color: #8f8f8f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.classificacao-etaria > span {
+  color: #fff;
+  font-size: 0.7rem;
+  display: flex;
+  justify-content: center;
+  font-family: "Arial Narrow OS";
+  padding: 3px;
+}
+/*BOX DA FAIXA-ETÁRIA   FIM--------------------------------------------*/
