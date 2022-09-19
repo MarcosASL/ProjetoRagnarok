@@ -247,9 +247,9 @@ img {
   margin: 10px;
 }
 
-.nav:nth-child(1) {
-  /* color: white; */
-}
+/* .nav:nth-child(1) {
+  color: white;
+} */
 
 .main {
   grid-area: main;
