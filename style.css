@@ -171,39 +171,43 @@ img {
   box-shadow: none;
 } */
 
+.container-footer li a {
+  color: rgb(160, 158, 158);
+}
+
 .lista1 li {
   outline: solid 1px red;
-  color: rgb(160, 158, 158);
+  /* color: rgb(160, 158, 158); */
   padding-bottom: 20px;
 }
 .lista2 li {
   outline: solid 1px red;
-  color: rgb(160, 158, 158);
+  /* color: rgb(160, 158, 158); */
   padding-bottom: 20px;
 }
 .lista3 li {
   outline: solid 1px red;
-  color: rgb(160, 158, 158);
+  /* color: rgb(160, 158, 158); */
   padding-bottom: 20px;
 }
 .lista4 li {
   outline: solid 1px red;
-  color: rgb(160, 158, 158);
+  /* color: rgb(160, 158, 158); */
   padding-bottom: 20px;
 }
 .lista5 li {
   outline: solid 1px red;
-  color: rgb(160, 158, 158);
+  /* color: rgb(160, 158, 158); */
   padding-bottom: 20px;
 }
 .lista6 li {
   outline: solid 1px red;
-  color: rgb(160, 158, 158);
+  /* color: rgb(160, 158, 158); */
   padding-bottom: 20px;
 }
 .lista7 li {
   outline: solid 1px red;
-  color: rgb(160, 158, 158);
+  /* color: rgb(160, 158, 158); */
   padding-bottom: 20px;
 }
 .container-img {
@@ -216,6 +220,10 @@ img {
 /*distanciamente dos elementos da lista do footer*/
 .nav {
   margin: 10px;
+}
+
+.nav:nth-child(1) {
+  /* color: white; */
 }
 
 .main {
