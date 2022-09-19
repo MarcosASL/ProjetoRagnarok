@@ -227,6 +227,20 @@ img {
   font-size: 14px;
   padding-top: 18px;
 }
+.divimg {
+  display: flex;
+}
+.imgdireita {
+  display: flex;
+  padding: 60px;
+  width: 100px;
+  height: 100px;
+  border: solid 2px red;
+}
+.direitos p {
+  color: white;
+  font-size: 14px;
+}
 
 /*distanciamente dos elementos da lista do footer*/
 .nav {
