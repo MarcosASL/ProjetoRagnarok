@@ -164,15 +164,20 @@ img {
 .lista6 li:first-child {
   color: white;
 }
-.lista7 li:first-child {
+/* .lista7 li:first-child {
   color: white;
-}
+} */
 /* .lista7 li a {
   box-shadow: none;
 } */
 
 .container-footer li a {
   color: rgb(160, 158, 158);
+}
+
+/*AQUI PINTAR SÓ O PRIMEIRO ELEMENTO DA LISTA*/
+.nav li:first-child a {
+  color: blue;
 }
 
 .lista1 li {
