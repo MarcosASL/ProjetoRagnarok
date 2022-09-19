@@ -145,6 +145,7 @@ img {
   display: flex;
   justify-content: space-between;
   padding-left: 30px;
+  padding-bottom: 30px;
 }
 .lista1 li:first-child {
   color: white;
@@ -175,9 +176,9 @@ img {
   color: rgb(160, 158, 158);
 }
 
-/*AQUI PINTAR SÓ O PRIMEIRO ELEMENTO DA LISTA*/
+/*AQUI PINTA SÓ O PRIMEIRO ELEMENTO DA LISTA, QUANDO A LISTA FOR LINKS*/
 .nav li:first-child a {
-  color: blue;
+  color: white;
 }
 
 .lista1 li {
@@ -220,6 +221,11 @@ img {
   padding-top: 8px;
   padding-left: 40px;
   padding-bottom: 40px;
+}
+.divp p {
+  color: white;
+  font-size: 14px;
+  padding-top: 18px;
 }
 
 /*distanciamente dos elementos da lista do footer*/
