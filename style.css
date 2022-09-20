@@ -107,6 +107,7 @@ header .container-itens .banner {
 }
 .nav-header {
   margin-top: 5%;
+  position: relative;
   /* display: grid; */
   /* background-color: bisque; */
   /* align-self: end; */
