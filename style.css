@@ -27,7 +27,8 @@ a {
   color: white;
 }
 
-img {
+/*MANTER APENAS A CLASSE IMG COM PARAMETRO DE max-width: 100% ESTAVA BUGANDO O MEU BANNER DO HEADER. ESPECIFIQUEI QUE QUERO O PARAMETRO AGORA APENAS NAS IMG DO MAIN */
+main img {
   display: block;
   max-width: 100%;
 }
@@ -48,22 +49,32 @@ img {
 }
 
 .header {
+  /* display: flex;
+  flex-wrap: wrap; */
   grid-area: header;
   /* background-color: aqua; */
   /* position: relative; */
-  outline: 10px solid yellow;
+  outline: 10px solid red;
+  /* background-image: url(./img/banner-header_doram.jpg); */
 }
 .container-itens {
   /* background-image: url(./img/banner-header_doram.jpg); */
-  position: relative;
+  /* position: relative; */
   outline: 1px solid red;
+  height: 30vh;
+  overflow: hidden;
+  min-height: 300px; /*é o que faz o background ser visivel*/
+}
+header .container-itens {
+  position: relative;
 }
 
-.banner {
+header .container-itens .banner {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  outline: 3px solid red;
 }
 
 .logo img {
@@ -81,7 +92,7 @@ img {
   bottom: -20%;
   left: 50%;
   transform: translateX(-50%);
-  /* max-width: 50%; */
+  max-width: 50%;
 }
 
 .header li a {
