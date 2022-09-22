@@ -86,7 +86,7 @@ header .container-itens .banner {
 .img-header {
   /* background-color: blue; */
   position: absolute;
-  outline: 1px solid red;
+  outline: 1px solid blue;
   width: auto;
   height: -120%;
   bottom: -20%;
@@ -331,3 +331,10 @@ header .container-itens .banner {
   padding: 3px;
 }
 /*BOX DA FAIXA-ETÁRIA   FIM--------------------------------------------*/
+
+/*------------------------RESPONSIVO--------------------------------------*/
+@media (max-width: 1280px) {
+  .img-header {
+    display: none;
+  }
+}
