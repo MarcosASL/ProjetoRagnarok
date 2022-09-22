@@ -83,16 +83,22 @@ header .container-itens .banner {
   height: 160px;
   background-color: black;
 }
-.img-header {
+header .container-itens .img-header {
   /* background-color: blue; */
   position: absolute;
   outline: 1px solid blue;
   width: auto;
   height: -120%;
-  bottom: -20%;
+  bottom: -22%;
   left: 50%;
   transform: translateX(-50%);
-  max-width: 50%;
+  /* max-width: 50%; */
+  /* padding: 0;
+  margin: 0; */
+}
+.img-header img {
+  max-width: 735px;
+  /* outline: 1px solid blue; */
 }
 
 .header li a {
