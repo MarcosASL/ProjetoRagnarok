@@ -101,26 +101,17 @@ header .container-itens .img-header {
   /* outline: 1px solid blue; */
 }
 
-.header li a {
-  font-size: 1.6rem;
-  font-weight: 800;
-  /* margin-bottom: 0px; */
-  font-family: "Signika", sans-serif;
-  color: white;
-  padding: 6px;
-  background: #00ed00;
-  /* margin-top: 10%; */
-}
-
 /*DIV QUE SEGURA TODOS DA LISTA*/
 .lista-menu {
   display: flex;
-  /* outline: 3px solid red; */
   justify-content: end;
   width: 96%;
 }
 /*É A UL DA LISTA*/
 .nav-header {
+  display: flex;
+  flex-direction: column;
+  /* width: 300px; */
   margin-top: 5%;
   position: relative;
   outline: 3px solid red;
@@ -132,13 +123,28 @@ header .container-itens .img-header {
 .nav-header li {
   display: flex;
   padding: 10px;
+  height: 50px;
+
+  /* width: 96%; */
+  /* position: relative; */
   /* width: 96%; */
   /* margin-bottom: 10px; */
-  outline: 1px solid green;
-  /* align-items: center; */
-  /* align-self: center; */
-  /* align-content: space-around; */
+  /* outline: 1px solid green; */
   justify-content: end;
+  background: #00ed00;
+}
+.header li a {
+  width: 300px;
+  /* display: block; */
+  /* width: 100%; */
+  font-size: 1.6rem;
+  font-weight: 800;
+  /* margin-bottom: 0px; */
+  font-family: "Signika", sans-serif;
+  color: white;
+  padding: 6px;
+  /* background: #00ed00; */
+  /* margin-top: 10%; */
 }
 
 .footer {
