@@ -105,16 +105,16 @@ header .container-itens .img-header {
 .lista-menu {
   display: flex;
   justify-content: end;
-  width: 96%;
+  /* width: 96%; */
 }
 /*É A UL DA LISTA*/
 .nav-header {
   display: flex;
   flex-direction: column;
   /* width: 300px; */
-  margin-top: 5%;
+  margin-top: 7.9%;
   position: relative;
-  outline: 3px solid red;
+  /* outline: 3px solid red; */
   /* display: grid; */
   /* background-color: bisque; */
   /* align-self: end; */
@@ -122,16 +122,26 @@ header .container-itens .img-header {
 /*fala com cada item de li*/
 .nav-header li {
   display: flex;
-  padding: 10px;
+  padding: 5px;
   height: 50px;
+  margin-left: -8%;
   /* width: 96%; */
   /* position: relative; */
   /* width: 96%; */
   /* margin-bottom: 10px; */
   /* outline: 1px solid green; */
-  justify-content: end;
+  /* justify-content: end; */
   /* background: #00ed00; */
+  /* margin-left: -20%; */
 }
+
+.nav-header li:nth-child(2) {
+  margin-left: -11%;
+}
+.nav-header li:nth-child(3) {
+  margin-left: -14%;
+}
+
 .header li a {
   width: 300px;
   text-align: center;
