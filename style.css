@@ -137,7 +137,9 @@ header .container-itens .img-header {
   text-align: center;
   font-size: 1.6rem;
   font-weight: 800;
+  /* box-sizing: border-box; */
   /* margin-bottom: 0px; */
+  transform: skewX(-10deg); /*dá o efeito da borda diagonal*/
   font-family: "Signika", sans-serif;
   color: white;
   padding: 6px;
