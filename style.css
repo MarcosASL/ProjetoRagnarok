@@ -124,7 +124,7 @@ header .container-itens .img-header {
   display: flex;
   padding: 5px;
   height: 50px;
-  margin-left: -8%;
+  margin-left: -9%;
   /* width: 96%; */
   /* position: relative; */
   /* width: 96%; */
@@ -136,14 +136,15 @@ header .container-itens .img-header {
 }
 
 .nav-header li:nth-child(2) {
-  margin-left: -11%;
+  margin-left: -13%;
+  /*NÃO CONSEGUI MUDAR BACKGROUND DO "DOWNLOAD" NO CSS, MUDEI NO HTML MSM*/
 }
 .nav-header li:nth-child(3) {
-  margin-left: -14%;
+  margin-left: -18%;
 }
 
 .header li a {
-  width: 300px;
+  width: 270px; /*largura do box verde <a>*/
   text-align: center;
   font-size: 1.6rem;
   font-weight: 800;
