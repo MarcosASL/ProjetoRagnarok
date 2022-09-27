@@ -142,6 +142,8 @@ header .container-itens .img-header {
 .nav-header li:nth-child(3) {
   margin-left: -18%;
 }
+.nav-header li:nth-child(2) {
+}
 
 .header li a {
   width: 270px; /*largura do box verde <a>*/
@@ -157,6 +159,9 @@ header .container-itens .img-header {
   background: #00ed00;
   border: solid 3px #fff;
   /* margin-top: 10%; */
+}
+.header li a:hover {
+  background-color: #01b7fd;
 }
 
 .footer {
