@@ -134,17 +134,20 @@ header .container-itens .img-header {
   /* background: #00ed00; */
   /* margin-left: -20%; */
 }
+/* .download {
+  font-size: 1px;
+} */
 
 .nav-header li:nth-child(2) {
   margin-left: -13%;
-  /*NÃO CONSEGUI MUDAR BACKGROUND DO "DOWNLOAD" NO CSS, MUDEI NO HTML MSM*/
 }
 .nav-header li:nth-child(3) {
   margin-left: -18%;
 }
-/* .nav-header li:nth-child(2) {
-  background-color: #111111;
-} */
+
+.compre a:hover {
+  background-color: #01ffff !important;
+}
 .download > a {
   background: rgba(21, 210, 232, 0.4) !important;
 }
@@ -167,6 +170,11 @@ header .container-itens .img-header {
 .header li a:hover {
   background-color: #01b7fd;
 }
+.download a:hover {
+  background-color: #01b7fd !important ;
+}
+
+/*---------------------------------------------------------------*/
 
 .footer {
   grid-area: footer;
