@@ -141,6 +141,7 @@ header .container-itens .img-header {
 .download:nth-child(2) a {
   font-size: 1.2rem;
   /* align-self: center; */
+  outline: 3px solid red;
 }
 
 .nav-header li:nth-child(3) {
@@ -153,6 +154,12 @@ header .container-itens .img-header {
 .download > a {
   background: rgba(21, 210, 232, 0.4) !important;
   font-size: 10px;
+}
+.download span {
+  display: flex;
+  font-size: 20px;
+  margin-top: 5px;
+  flex-direction: column;
 }
 
 .header li a {
