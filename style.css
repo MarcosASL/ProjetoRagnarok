@@ -137,6 +137,9 @@ header .container-itens .img-header {
 .download span {
   font-size: 1.2rem;
 }
+.compre span {
+  font-size: 1.4rem;
+}
 
 .nav-header li:nth-child(3) {
   margin-left: -18%;
@@ -147,7 +150,6 @@ header .container-itens .img-header {
 }
 .download > a {
   background: rgba(21, 210, 232, 0.4) !important;
-  /* font-size: 10px; */
 }
 
 .header li a {
