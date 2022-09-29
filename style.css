@@ -130,6 +130,11 @@ header .container-itens .img-header {
 .nav-header li:nth-child(2) {
   margin-left: -13.5%;
 }
+
+.migre-conta a {
+  background: #00ed00;
+}
+
 /* .download:nth-child(2) a {
   font-size: 1.2rem;
 } */
@@ -140,6 +145,9 @@ header .container-itens .img-header {
 .compre span {
   font-size: 1.4rem;
 }
+.compre a {
+  background: #00ff71 !important;
+}
 
 .nav-header li:nth-child(3) {
   margin-left: -18%;
@@ -149,7 +157,7 @@ header .container-itens .img-header {
   background-color: #01ffff !important;
 }
 .download > a {
-  background: rgba(21, 210, 232, 0.4) !important;
+  background: rgba(21, 210, 232, 0.4);
 }
 
 .header li a {
@@ -163,7 +171,7 @@ header .container-itens .img-header {
   font-family: "Signika", sans-serif;
   color: white;
   padding: 6px;
-  background: #00ed00;
+  /* background: #00ed00; */
   border: solid 3px #fff;
   /* margin-top: 10%; */
 }
