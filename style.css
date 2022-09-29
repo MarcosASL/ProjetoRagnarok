@@ -149,12 +149,6 @@ header .container-itens .img-header {
   background: rgba(21, 210, 232, 0.4) !important;
   /* font-size: 10px; */
 }
-.download span {
-  display: flex;
-  /* font-size: 20px; */
-  margin-top: 5px;
-  flex-direction: column;
-}
 
 .header li a {
   width: 270px; /*largura do box verde <a>*/
