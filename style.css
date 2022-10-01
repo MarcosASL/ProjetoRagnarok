@@ -133,14 +133,25 @@ header .container-itens .img-header {
 
 .migre-conta a {
   background: #00ed00;
+  /* position: relative; */
 }
-
-/* .download:nth-child(2) a {
-  font-size: 1.2rem;
-} */
+migre-conta::after {
+  content: "";
+  position: absolute;
+  display: block;
+  top: -12px;
+  right: -18px;
+  background: url(./img/alert.png);
+  background-size: 100%;
+  width: 20px;
+  height: 20px;
+}
 
 .download span {
   font-size: 1.2rem;
+  /* align-self: center; */
+  /* text-align: center; */
+  /* margin-top: 20px; */
 }
 .compre span {
   font-size: 1.4rem;
@@ -158,6 +169,8 @@ header .container-itens .img-header {
 }
 .download > a {
   background: rgba(21, 210, 232, 0.4);
+  /* outline: 1px solid red; */
+  /* align-self: center; */
 }
 
 .header li a {
