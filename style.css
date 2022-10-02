@@ -134,10 +134,10 @@ header .container-itens .img-header {
 
 .migre-conta a {
   background: #00ed00;
-  position: relative;
+  /* position: relative; */
 }
-migre-conta::after {
-  content: "teste";
+span::after {
+  content: "";
   position: absolute;
   display: block;
   top: -12px;
@@ -146,6 +146,9 @@ migre-conta::after {
   background-size: 100%;
   width: 20px;
   height: 20px;
+}
+migre-conta span {
+  position: relative;
 }
 
 .download span {
