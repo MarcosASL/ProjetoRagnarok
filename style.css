@@ -125,6 +125,7 @@ header .container-itens .img-header {
   padding: 5px;
   height: 50px;
   margin-left: -9%;
+  /* position: relative; */
 }
 
 .nav-header li:nth-child(2) {
@@ -133,10 +134,10 @@ header .container-itens .img-header {
 
 .migre-conta a {
   background: #00ed00;
-  /* position: relative; */
+  position: relative;
 }
 migre-conta::after {
-  content: "";
+  content: "teste";
   position: absolute;
   display: block;
   top: -12px;
