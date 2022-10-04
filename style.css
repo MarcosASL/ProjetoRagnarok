@@ -137,6 +137,7 @@ header .container-itens .img-header {
   position: relative;
 }
 
+/*ALGO ESTÁ DISTORCENDO MINHAS LETRAS E TUDO DENTRO DO QUADRADINHO, VER O QUE É!*/
 .migre-conta a::after {
   content: "";
   position: absolute;
