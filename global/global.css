@@ -1,0 +1,48 @@
+body {
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #111111;
+  padding-bottom: 600px;
+}
+
+p,
+h1,
+ul,
+ol,
+li,
+a,
+h2,
+h3 {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  text-decoration: none;
+}
+
+a {
+  color: white;
+}
+
+/*MANTER APENAS A CLASSE IMG COM PARAMETRO DE max-width: 100% ESTAVA BUGANDO O MEU BANNER DO HEADER. ESPECIFIQUEI QUE QUERO O PARAMETRO AGORA APENAS NAS IMG DO MAIN */
+main img {
+  display: block;
+  max-width: 100%;
+}
+
+/* resets------------------FIM---------------------------------- */
+
+.container-geral {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 0.7fr 1.3fr 1fr 1fr 1fr;
+  gap: 2em 2em;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "header header"
+    "main main"
+    "main main"
+    "main main"
+    "footer footer";
+}
