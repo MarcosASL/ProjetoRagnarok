@@ -1,0 +1,215 @@
+.footer {
+  grid-area: footer;
+  display: block;
+  justify-content: left;
+  padding: 40px;
+  background-color: #181818;
+  outline: 20px solid pink;
+  /* padding: 500px 0px 500px 0px; */
+  /*top/right/bottom/left*/
+  height: 1300px; /*deixar como 1000 depois*/
+  margin-bottom: -700px;
+}
+
+.footer p {
+  outline: 1px solid red;
+  color: white;
+  margin-bottom: 13px;
+  margin-left: 40px;
+  font-size: 30px;
+}
+/* .container-footer {
+  outline: 1px solid rgb(57, 18, 197);
+  display: flex;
+  justify-content: space-between;
+} */
+.img {
+  /* outline: solid 1px red; */
+  width: 70px;
+  height: 59px;
+}
+.container-footer {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 30px;
+  padding-bottom: 30px;
+}
+.lista1 li:first-child {
+  color: white;
+}
+.lista2 li:first-child {
+  color: white;
+}
+.lista3 li:first-child {
+  color: white;
+}
+.lista4 li:first-child {
+  color: white;
+}
+.lista5 li:first-child {
+  color: white;
+}
+.lista6 li:first-child {
+  color: white;
+}
+/* .lista7 li:first-child {
+  color: white;
+} */
+/* .lista7 li a {
+  box-shadow: none;
+} */
+
+.container-footer li a {
+  color: rgb(160, 158, 158);
+}
+
+/*AQUI PINTA SÓ O PRIMEIRO ELEMENTO DA LISTA, QUANDO A LISTA FOR LINKS*/
+.nav li:first-child a {
+  color: white;
+}
+
+.lista1 li {
+  outline: solid 1px red;
+  /* color: rgb(160, 158, 158); */
+  padding-bottom: 20px;
+}
+.lista2 li {
+  outline: solid 1px red;
+  /* color: rgb(160, 158, 158); */
+  padding-bottom: 20px;
+}
+.lista3 li {
+  outline: solid 1px red;
+  /* color: rgb(160, 158, 158); */
+  padding-bottom: 20px;
+}
+.lista4 li {
+  outline: solid 1px red;
+  /* color: rgb(160, 158, 158); */
+  padding-bottom: 20px;
+}
+.lista5 li {
+  outline: solid 1px red;
+  /* color: rgb(160, 158, 158); */
+  padding-bottom: 20px;
+}
+.lista6 li {
+  outline: solid 1px red;
+  /* color: rgb(160, 158, 158); */
+  padding-bottom: 20px;
+}
+.lista7 li {
+  outline: solid 1px red;
+  /* color: rgb(160, 158, 158); */
+  padding-bottom: 20px;
+}
+.container-img {
+  display: flex;
+  padding-top: 8px;
+  padding-left: 40px;
+  padding-bottom: 40px;
+}
+.divp p {
+  color: white;
+  font-size: 14px;
+  padding-top: 18px;
+}
+.divimg {
+  display: flex;
+}
+.imgdireita {
+  display: flex;
+  padding: 60px;
+  width: 100px;
+  height: 100px;
+  border: solid 2px red;
+}
+.direitos p {
+  color: white;
+  font-size: 14px;
+}
+
+/*distanciamente dos elementos da lista do footer*/
+.nav {
+  margin: 10px;
+}
+
+/* .nav:nth-child(1) {
+  color: white;
+} */
+
+.main {
+  grid-area: main;
+}
+
+/*BOX DA FAIXA-ETÁRIA   INICIO--------------------------------------------*/
+.classificacao-etaria {
+  background-color: #000;
+  border-radius: 5px;
+  width: 310px;
+}
+.classificacao-etaria span {
+  color: #fff;
+  font-size: 0.7rem;
+  display: flex;
+  justify-content: center;
+  font-family: "Arial Narrow OS";
+  padding: 3px;
+}
+.classificacao {
+  width: 300px;
+  height: 60px;
+  display: flex;
+  background-color: #fff;
+  font-family: "Arial Narrow OS";
+  border-radius: 5px;
+  margin: 0 5px;
+}
+.age-green {
+  background-color: #00a44f;
+  font-weight: bold;
+  font-size: 2rem;
+  text-align: center;
+  color: #fff;
+  vertical-align: middle;
+  height: 100%;
+  width: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  font-family: "Arial Narrow OS";
+}
+
+.text {
+  color: #8f8f8f;
+  padding: 5px;
+  width: 80%;
+}
+.text p {
+  font-size: 0.7rem;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  color: #8f8f8f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.classificacao-etaria > span {
+  color: #fff;
+  font-size: 0.7rem;
+  display: flex;
+  justify-content: center;
+  font-family: "Arial Narrow OS";
+  padding: 3px;
+}
+/*BOX DA FAIXA-ETÁRIA   FIM--------------------------------------------*/
+
+/*------------------------RESPONSIVO--------------------------------------*/
+@media (max-width: 1280px) {
+  .img-header {
+    display: none;
+  }
+}
