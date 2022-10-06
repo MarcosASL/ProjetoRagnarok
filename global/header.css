@@ -90,7 +90,7 @@ header .container-itens .img-header {
   display: block;
   top: -3px;
   right: 15px;
-  background: url(./img/alert.png);
+  background: url(/img/alert.png);
   background-size: 100%;
   width: 20px;
   height: 20px;
