@@ -98,17 +98,31 @@ header .container-itens .img-header {
 
 /*OBS: O QUE DEIXA MEU LOGO GRUDADO NO BANNER DE PATINHA É O POSITION: ABSOLUTE E O LEFT: 50%*/
 .marca-rag {
-  outline: 1px solid blue;
+  /* outline: 1px solid blue;
   position: absolute;
   left: 50%;
+  bottom: 10%; */
+
   /* width: auto; */
   /* height: -120%; */
-  bottom: 10%;
+
+  /* max-width: 735px; */
 
   /* transform: translateX(-50%); */
   /* max-width: 50%; */
   /* padding: 0; */
   /* margin: 0; */
+}
+/*OBS: O QUE DEIXA MEU LOGO GRUDADO NO BANNER DE PATINHA É O POSITION: ABSOLUTE E O LEFT: 50%*/
+.marca-rag img {
+  outline: 1px solid blue;
+  position: absolute;
+  left: 40%;
+  bottom: 13%;
+  margin-left: -30%;
+  /* margin-left: -762px; */
+  max-width: 260px;
+  /* width: auto; */
 }
 
 .download span {
