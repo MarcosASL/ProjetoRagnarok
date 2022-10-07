@@ -96,6 +96,21 @@ header .container-itens .img-header {
   height: 20px;
 }
 
+/*OBS: O QUE DEIXA MEU LOGO GRUDADO NO BANNER DE PATINHA É O POSITION: ABSOLUTE E O LEFT: 50%*/
+.marca-rag {
+  outline: 1px solid blue;
+  position: absolute;
+  left: 50%;
+  /* width: auto; */
+  /* height: -120%; */
+  bottom: 10%;
+
+  /* transform: translateX(-50%); */
+  /* max-width: 50%; */
+  /* padding: 0; */
+  /* margin: 0; */
+}
+
 .download span {
   font-size: 1.2rem;
 }
