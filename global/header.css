@@ -115,10 +115,10 @@ header .container-itens .banner {
   outline: 1px solid blue;
   position: absolute;
   left: 40%;
-  bottom: 13%;
+  bottom: 13.5%;
   margin-left: -30%;
   /* margin-left: -762px; */
-  max-width: 260px;
+  max-width: 258px;
   /* width: auto; */
 }
 
