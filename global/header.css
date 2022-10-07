@@ -33,22 +33,19 @@ header .container-itens .banner {
   height: 160px;
   background-color: black;
 }
-header .container-itens .img-header {
-  /* background-color: blue; */
+
+.img-header img {
+  max-width: 728px;
   position: absolute;
   outline: 1px solid blue;
   width: auto;
   height: -120%;
-  bottom: -22%;
+  bottom: -20%;
   left: 50%;
   transform: translateX(-50%);
   /* max-width: 50%; */
   /* padding: 0;
   margin: 0; */
-}
-.img-header img {
-  max-width: 735px;
-  /* outline: 1px solid blue; */
 }
 
 /*DIV QUE SEGURA TODOS DA LISTA*/
@@ -97,22 +94,22 @@ header .container-itens .img-header {
 }
 
 /*OBS: O QUE DEIXA MEU LOGO GRUDADO NO BANNER DE PATINHA É O POSITION: ABSOLUTE E O LEFT: 50%*/
-.marca-rag {
-  /* outline: 1px solid blue;
+/* .marca-rag { */
+/* outline: 1px solid blue;
   position: absolute;
   left: 50%;
   bottom: 10%; */
 
-  /* width: auto; */
-  /* height: -120%; */
+/* width: auto; */
+/* height: -120%; */
 
-  /* max-width: 735px; */
+/* max-width: 735px; */
 
-  /* transform: translateX(-50%); */
-  /* max-width: 50%; */
-  /* padding: 0; */
-  /* margin: 0; */
-}
+/* transform: translateX(-50%); */
+/* max-width: 50%; */
+/* padding: 0; */
+/* margin: 0; */
+/* } */
 /*OBS: O QUE DEIXA MEU LOGO GRUDADO NO BANNER DE PATINHA É O POSITION: ABSOLUTE E O LEFT: 50%*/
 .marca-rag img {
   outline: 1px solid blue;
