@@ -122,14 +122,6 @@ header .container-itens .banner {
 
 } */
 
-.marca-rag {
-  /* display: block; */
-  /* padding: 1px 1px 1px 1px; */
-  /* max-width: 10%; */
-  /* margin: 10px 10px 10px 10px; */
-  /* max-width: 80px; */
-}
-
 .marca-rag img {
   outline: 1px solid blue;
   position: absolute;
@@ -155,6 +147,13 @@ header .container-itens .banner {
   color: #15d2e8;
   margin-top: 165px;
   max-width: 200px;
+}
+.marca-rag {
+  /* display: inline-block; */
+  /* padding: 1px 1px 1px 1px; */
+  /* max-width: 10%; */
+  /* margin: 10px 10px 10px 10px; */
+  /* max-width: 80px; */
 }
 
 .download span {
