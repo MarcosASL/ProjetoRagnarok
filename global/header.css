@@ -124,31 +124,44 @@ header .container-itens .banner {
 
 .marca-rag img {
   outline: 1px solid blue;
-  position: absolute;
-  left: 40%;
-  bottom: 13.5%;
-  margin-left: -30%;
+  /* position: absolute; */
+  /* left: 40%; */
+  /* bottom: 13.5%; */
+  /* margin-left: -30%; */
   /* margin-left: -762px; */
-  max-width: 258px;
+  /* max-width: 258px; */
   /* width: auto; */
+
+  width: auto;
+  height: 160px;
 }
 
 /*por enquanto comentei ele no html, tentar criar ele denovo com z-index*/
 .marca-rag span {
-  display: inline-block;
-  position: relative;
+  display: block;
+  position: absolute;
   outline: 1px solid purple;
-  left: 40%;
-  /* bottom: 15.5%; */
-  margin-left: -30%;
-  /* padding: 10px 20px; */
+  padding: 10px 20px;
   font-size: 1.2rem;
-  /* margin-bottom: 5px; */
+  margin-bottom: 5px;
   color: #15d2e8;
-  margin-top: 165px;
-  max-width: 200px;
+  top: 40%;
+  right: -80%;
+  text-transform: uppercase;
+  /* margin: 10px; */
+  /* transform: translateY(-50%); */
+  /* left: 40%; */
+  /* bottom: 15.5%; */
+  /* margin-left: -200px; */
+  /* margin-top: 165px; */
+  /* max-width: 200px; */
 }
 .marca-rag {
+  position: absolute;
+  top: 60%;
+  left: 10%;
+  transform: translateY(-50%);
+
   /* display: inline-block; */
   /* padding: 1px 1px 1px 1px; */
   /* max-width: 10%; */
