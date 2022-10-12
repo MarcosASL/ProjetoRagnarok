@@ -137,7 +137,18 @@ header .container-itens .banner {
 }
 
 .marca-rag span > span {
-  color: #00ed00;
+  /* position: absolute; */
+  color: #ff9d4a;
+  font-weight: bold;
+  right: -80%;
+  top: 40%;
+  display: block;
+  /* text-align: center; */
+  outline: 1px solid greenyellow;
+  /* font: inherit; */
+  /* padding: 10px 20px; */
+  margin-bottom: 5px;
+  transform: translate(10%); /*mexer aqui*/
 }
 
 /*por enquanto comentei ele no html, tentar criar ele denovo com z-index*/
@@ -159,6 +170,7 @@ header .container-itens .banner {
   /* margin-left: -200px; */
   /* margin-top: 165px; */
   /* max-width: 200px; */
+  /* text-align: center; */
 }
 .marca-rag {
   position: absolute;
