@@ -136,6 +136,10 @@ header .container-itens .banner {
   height: 160px;
 }
 
+.marca-rag span > span {
+  color: #00ed00;
+}
+
 /*por enquanto comentei ele no html, tentar criar ele denovo com z-index*/
 .marca-rag span {
   display: block;
@@ -161,7 +165,6 @@ header .container-itens .banner {
   top: 60%;
   left: 10%;
   transform: translateY(-50%);
-
   /* display: inline-block; */
   /* padding: 1px 1px 1px 1px; */
   /* max-width: 10%; */
