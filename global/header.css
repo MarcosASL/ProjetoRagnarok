@@ -136,20 +136,21 @@ header .container-itens .banner {
   height: 160px;
 }
 
-.marca-rag span > span {
-  /* position: absolute; */
+.marca-rag h3 {
+  display: block;
+  position: absolute;
   color: #ff9d4a;
   font-weight: bold;
   right: -80%;
-  top: 40%;
+  /* top: 40%; */
   display: block;
   /* text-align: center; */
   outline: 1px solid greenyellow;
   /* font: inherit; */
   /* padding: 10px 20px; */
   margin-bottom: 5px;
-  transform: translate(-80%); /*mexer aqui*/
-  gap: 2em;
+  transform: translate(-80%);
+  /* bottom: -80px; */
 }
 
 /*por enquanto comentei ele no html, tentar criar ele denovo com z-index*/
