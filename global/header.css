@@ -1,4 +1,5 @@
 .header {
+  font-family: "Signika", sans-serif;
   /* display: flex;
   flex-wrap: wrap; */
   grid-area: header;
@@ -172,7 +173,6 @@ header .container-itens .banner {
   padding: 10px 20px;
   font-size: 1.2rem;
   font-weight: 700;
-  font-family: signika_regular;
   margin: 0px 0px 5px;
   /* margin-bottom: 5px; */
 }
