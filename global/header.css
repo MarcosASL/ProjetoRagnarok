@@ -149,6 +149,7 @@ header .container-itens .banner {
   /* padding: 10px 20px; */
   margin-bottom: 5px;
   transform: translate(-80%); /*mexer aqui*/
+  gap: 2em;
 }
 
 /*por enquanto comentei ele no html, tentar criar ele denovo com z-index*/
