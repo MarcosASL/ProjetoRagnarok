@@ -161,10 +161,15 @@ header .container-itens .banner {
   padding: 10px 20px;
   font-size: 1.2rem;
   margin-bottom: 5px;
-  color: #15d2e8;
+  color: #ff7d73;
   top: 40%;
   right: -80%;
   text-transform: uppercase;
+  background-color: white;
+  z-index: -1;
+  transform: skewX(-10deg); /*dá o efeito da borda cortada em diagonal*/
+  /* width: 250px; */
+  /* height: 100%; */
   /* margin: 10px; */
   /* transform: translateY(-50%); */
   /* left: 40%; */
@@ -176,7 +181,7 @@ header .container-itens .banner {
 }
 .marca-rag {
   position: absolute;
-  top: 60%;
+  top: 60.5%;
   left: 10%;
   transform: translateY(-50%);
   /* display: inline-block; */
