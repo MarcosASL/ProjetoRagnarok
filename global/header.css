@@ -165,15 +165,16 @@ header .container-itens .banner {
   /* font-weight: 700; */
   color: #ff7d73;
   top: 40%;
-  right: -80%;
+  right: -78%;
   text-transform: uppercase;
 }
 .marca-rag strong {
+  position: relative;
   display: block;
   padding: 10px 20px;
   font-size: 1.2rem;
-  font-weight: 700;
-  margin: 0px 0px 5px;
+  /* font-weight: 600; */
+  /* margin: 0px 0px 5px; */
   /* margin-bottom: 5px; */
 }
 /* background branco do ragnarok logo*/
