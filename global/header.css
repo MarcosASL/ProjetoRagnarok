@@ -159,13 +159,13 @@ header .container-itens .banner {
 .marca-rag span {
   display: block;
   position: absolute;
-  outline: 1px solid purple;
+  /* outline: 1px solid purple; */
   /* padding: 8.52px 20px; */
   /* font-size: 1.2rem; */
   /* font-weight: 700; */
   color: #ff7d73;
   top: 40%;
-  right: -78%;
+  right: -77%;
   text-transform: uppercase;
 }
 .marca-rag strong {
@@ -176,6 +176,7 @@ header .container-itens .banner {
   /* font-weight: 600; */
   /* margin: 0px 0px 5px; */
   /* margin-bottom: 5px; */
+  line-height: 19px;
 }
 /* background branco do ragnarok logo*/
 .marca-rag strong::before {
